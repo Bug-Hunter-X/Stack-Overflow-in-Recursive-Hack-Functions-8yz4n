@@ -1,0 +1,3 @@
+# Stack Overflow in Recursive Hack Functions
+
+This repository demonstrates a common error in Hack: stack overflow errors caused by excessively deep recursion.  The `foo` and `bar` functions, while simple examples of factorial and sum calculations, can easily lead to stack overflow if the input `x` is large.  The provided solution demonstrates how to avoid this by refactoring the functions to use iterative approaches.
